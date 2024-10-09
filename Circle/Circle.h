@@ -8,7 +8,9 @@ class Circle {
 
 public:
 	void setCenter(Point center);
+	//**** use POint ****//
 	Point getCenter();
+
 	void setRadius(int r);
 	int getRadius();
 

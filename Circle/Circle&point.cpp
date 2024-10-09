@@ -22,7 +22,7 @@ int main() {
 	//Create a circle
 	Circle c;
 	c.setRadius(5);
-	Point center;
+	Point center;//Use class rather than int
 	center.setAxis_X(10);
 	center.setAxis_Y(0);
 	c.setCenter(center);
